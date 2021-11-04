@@ -25,7 +25,7 @@ const randomNum = function(){
     let num = Math.floor(Math.random() * 76 + 1);
     console.log(num)
     
-    let bingoBoard = document.getElementsByClassName('board');
+    let bingoBoard = document.getElementsByClassName('number');
 
     for( let cardNum = 1; cardNum <= 76; cardNum++) {
         
@@ -35,6 +35,12 @@ const randomNum = function(){
         }
       
     }
+
+       removeClass()
 }
 
+const removeClass = function(){
+
+    return bingoBoard[cardNum].classList.remove('selected')
+}
 randomNum()
