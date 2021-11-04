@@ -25,14 +25,16 @@ const randomNum = function(){
     let num = Math.floor(Math.random() * 76 + 1);
     console.log(num)
     
-    let bingoBoard = document.getElementById('board');
+    let bingoBoard = document.getElementsByClassName('board');
 
     for( let cardNum = 1; cardNum <= 76; cardNum++) {
         
-        if(num === bingoBoard){
-            return board.classList.add('selected');
+        if( num === cardNum){
+
+          bingoBoard[cardNum].classList.add('selected')
         }
       
     }
 }
 
+randomNum()

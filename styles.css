@@ -42,4 +42,5 @@ h1{
 
 .selected{
     background-color: rgb(178, 231, 231);
+    border-color: deeppink;
 }
