@@ -1,0 +1,41 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(51, 56, 55);
+}
+
+h1{
+ 
+    color: rgb(31, 216, 201);
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main-board{
+    display: flex;
+    align-content:stretch;
+    width: 80%;
+    height: 800px;
+    margin-left: 10%; 
+    border: 2px solid royalblue;
+}
+
+.number{
+    background-color: darkcyan;
+    display: inline-block;
+    width: 10%;
+    min-height: 70px;
+    margin:3px;
+    border-radius: 5% ;
+    border: 1px solid black;
+    text-align: center;
+    margin-top:5px;
+    font-size: 40px;
+    color: rgb(238, 238, 252) ;
+}
